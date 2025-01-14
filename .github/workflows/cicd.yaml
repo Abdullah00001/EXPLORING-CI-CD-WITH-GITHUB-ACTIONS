@@ -1,0 +1,14 @@
+name: exploring cicd pipeline and github actions
+
+on:
+  - push
+
+jobs:
+
+  build:
+  
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: check source code
+        uses: actions/checkout@v4
