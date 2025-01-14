@@ -12,5 +12,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: check source code
-        uses: actions/checkout@v4
+      - name: practice
+        uses: echo practice
