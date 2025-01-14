@@ -13,4 +13,4 @@ jobs:
 
     steps:
       - name: practice
-        uses: echo practice
+        run: echo practice
